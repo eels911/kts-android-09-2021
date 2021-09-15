@@ -1,3 +1,5 @@
 <resources>
-    <string name="app_name">UnsplashMobile</string>
+    <string name="app_name" translatable="false">UnsplashMobile</string>
+    <string name="skip">skip</string>
+    <string name="onboarding_desc">The internet’s source of freely-usable images.\nPowered by creators everywhere.</string>
 </resources>
