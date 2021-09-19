@@ -4,15 +4,78 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="@color/background_color">
 
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_root_left"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="16dp"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_root_right"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintGuide_end="16dp" />
+
+    <ImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:src="@drawable/ic_unsplahlogo"
+        android:layout_marginStart="18dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/guideline_root_left"
+        app:layout_constraintBottom_toBottomOf="@id/tv_app_name"
+        app:layout_constraintTop_toTopOf="@id/tv_app_name"/>
     <TextView
+        android:id="@+id/tv_app_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:text="@string/app_name"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="20sp"
+        android:textColor="@color/black"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/iv_logo"
+        />
+    <Button
+        android:id="@+id/tv_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/skip"
+        android:textSize="14sp"
+        android:backgroundTint="#0000"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@id/guideline_root_right"
+        app:layout_constraintBottom_toBottomOf="@id/tv_app_name"
+        app:layout_constraintTop_toTopOf="@id/tv_app_name"/>
+    <ImageView
+        android:id="@+id/iv_onboarding_img"
+        android:layout_width="match_parent"
+        android:layout_height="298dp"
+        android:src="@drawable/onboarding_img"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
 
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/onboarding_desc"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/guideline_root_right"
+        app:layout_constraintStart_toEndOf="@id/guideline_root_left"
+        app:layout_constraintTop_toTopOf="@id/iv_onboarding_img"
+        app:layout_constraintBottom_toBottomOf="@id/iv_onboarding_img"
+        android:gravity="center"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
