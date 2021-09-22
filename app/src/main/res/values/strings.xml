@@ -2,4 +2,11 @@
     <string name="app_name" translatable="false">UnsplashMobile</string>
     <string name="skip">skip</string>
     <string name="onboarding_desc">The internet’s source of freely-usable images.\nPowered by creators everywhere.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="login">Login</string>
+    <string name="email">email</string>
+    <string name="password">password</string>
+    <string name="forgot_password">Forgot password?</string>
+    <string name="enter_correct_email">Enter correct email</string>
+    <string name="need_more_than_8_symbols">Need more than 8 symbols</string>
 </resources>
