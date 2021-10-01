@@ -1,5 +1,12 @@
 <resources>
     <string name="app_name" translatable="false">UnsplashMobile</string>
-    <string name="skip">skip</string>
-    <string name="onboarding_desc">The internet’s source of freely-usable images.\nPowered by creators everywhere.</string>
+    <string name="onboarding_fragment_skip">skip</string>
+    <string name="onboarding_fragment_desc">The internet’s source of freely-usable images.\nPowered by creators everywhere.</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="login_fragment_login_hint">Login</string>
+    <string name="login_fragment_login_email">email</string>
+    <string name="login_fragment_login_password">password</string>
+    <string name="login_fragment_login_forgot_password">Forgot password?</string>
+    <string name="login_fragment_login_enter_correct_email">Enter correct email</string>
+    <string name="login_fragment_login_need_more_than_8_symbols">Need more than 8 symbols</string>
 </resources>

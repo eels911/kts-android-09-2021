@@ -1,5 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="skip">пропустить</string>
-    <string name="onboarding_desc">Источник бесплатных изображений в Интернете.\nСоздано авторами со всего мира.</string>
+    <string name="onboarding_fragment_skip">пропустить</string>
+    <string name="onboarding_fragment_desc">Источник бесплатных изображений в Интернете.\nСоздано авторами со всего мира.</string>
+    <string name="login_fragment_login_email">email</string>
+    <string name="login_fragment_login_password">пароль</string>
+    <string name="login_fragment_login_forgot_password">Забыли пароль?</string>
+    <string name="login_fragment_login_enter_correct_email">Введите правльны email</string>
+    <string name="login_fragment_login_need_more_than_8_symbols">пароль содержит юольше 8 символов</string>
+    <string name="login_fragment_login_hint">Логин</string>
 </resources>
