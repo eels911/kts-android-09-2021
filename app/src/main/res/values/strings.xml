@@ -9,4 +9,10 @@
     <string name="login_fragment_login_forgot_password">Forgot password?</string>
     <string name="login_fragment_login_enter_correct_email">Enter correct email</string>
     <string name="login_fragment_login_need_more_than_8_symbols">Need more than 8 symbols</string>
+    <string name="author">Сабина</string>
+    <string name="simpleTitle">очень важный заг</string>
+    <string name="complexTitle">слодный загаловок</string>
+    <string name="name_of_pic">nice desert</string>
+    <string name="author_of_pic">Сабина З.</string>
+    <string name="click_like">Поствьте лайк</string>
 </resources>
