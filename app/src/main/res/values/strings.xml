@@ -9,4 +9,22 @@
     <string name="login_fragment_login_forgot_password">Forgot password?</string>
     <string name="login_fragment_login_enter_correct_email">Enter correct email</string>
     <string name="login_fragment_login_need_more_than_8_symbols">Need more than 8 symbols</string>
+    <string name="author">Сабина</string>
+    <string name="simpleTitle">ставь лайк</string>
+    <string name="complexTitle">Новая пустыня</string>
+    <string name="name_of_pic">nice desert</string>
+    <string name="author_of_pic">Сабина З.</string>
+    <string name="click_like">Поствьте лайк</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string-array name="onboard_names">
+        <item>The internet’s source of freely-usable images.</item>
+        <item>Powered by creators everywhere.</item>
+        <item>Share your photo</item>
+        <item>Find new photographer</item>
+    </string-array>
+    <string name="onboard_image_path" translatable="false">onboard/%d.jpg</string>
+    <string name="image_loading_error">Problem in loading image</string>
+    <string name="onboard_imagine" translatable="false">onboard imagine</string>
+
 </resources>

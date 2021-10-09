@@ -6,6 +6,9 @@
     <string name="login_fragment_login_password">пароль</string>
     <string name="login_fragment_login_forgot_password">Забыли пароль?</string>
     <string name="login_fragment_login_enter_correct_email">Введите правльны email</string>
-    <string name="login_fragment_login_need_more_than_8_symbols">пароль содержит юольше 8 символов</string>
+    <string name="login_fragment_login_need_more_than_8_symbols">пароль содержит меньше 8 символов</string>
     <string name="login_fragment_login_hint">Логин</string>
+    <string name="name_of_pic">nice desert</string>
+    <string name="author_of_pic">Сабина З.</string>
+    <string name="click_like">Поствьте лайк</string>
 </resources>
