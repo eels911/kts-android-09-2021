@@ -16,6 +16,9 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        manifestPlaceholders = [
+                appAuthRedirectScheme: "com.example.kts.android.09.2021"
+        ]
     }
     buildTypes {
         release {
@@ -73,5 +76,8 @@ dependencies {
 
     //AppAuth
     implementation 'net.openid:appauth:0.9.1'
+
+    //Glide
+    implementation 'com.github.bumptech.glide:glide:4.12.0'
 
 }
