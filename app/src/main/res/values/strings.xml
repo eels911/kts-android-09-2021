@@ -26,5 +26,6 @@
     <string name="onboard_image_path" translatable="false">onboard/%d.jpg</string>
     <string name="image_loading_error">Problem in loading image</string>
     <string name="onboard_imagine" translatable="false">onboard imagine</string>
+    <string name="error_auth">ошибка авторизации</string>
 
 </resources>
