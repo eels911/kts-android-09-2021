@@ -11,4 +11,5 @@
     <string name="name_of_pic">nice desert</string>
     <string name="author_of_pic">Сабина З.</string>
     <string name="click_like">Поствьте лайк</string>
+    <string name="error_auth">ошибка авторизации</string>
 </resources>

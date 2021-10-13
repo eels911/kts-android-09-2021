@@ -49,7 +49,7 @@ class LoginFragmentVM(application: Application): AndroidViewModel(application) {
             },
             onError = {
                 loadingMutableLiveData.postValue(false)
-                toastLiveEvent.postValue(R.string.author)
+                toastLiveEvent.postValue(R.string.error_auth)
             }
         )
     }
